@@ -6,9 +6,6 @@ import Projects from "./pages/Projects";
 export default function App() {
   return (
     <>
-      {/* <div className="flex text-6xl bg-red-400">
-        Hello World!
-      </div> */}
       <NavBar />
       <Hero />
       <About />
