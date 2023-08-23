@@ -1,4 +1,5 @@
 import NavBar from "./components/Nav/NavBar";
+import Hero from "./pages/Hero";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
         Hello World!
       </div> */}
       <NavBar />
+      <Hero />
     </>
   )
 }

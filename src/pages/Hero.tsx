@@ -1,4 +1,7 @@
-import { LazyMotion } from "framer-motion";
+import { LazyMotion, domAnimation, m } from "framer-motion";
+import HeroText from "../components/HeroText";
+import HeroParticles from "../components/Particles/HeroParticles";
+// import HeroScroller from "../components/elements/HeroScroller";
 
 const Hero = () => {
     return (
@@ -8,7 +11,10 @@ const Hero = () => {
                     id="hero"
                     className="relative w-full flex justify-center items-center h-screen min-h-[800px]"
                 >
+                    <HeroText />
+                    <HeroParticles />
                 </m.div>
+                {/* <HeroScroller /> */}
             </LazyMotion>
         </div>
     );
