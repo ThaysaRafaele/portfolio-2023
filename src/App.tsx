@@ -1,4 +1,5 @@
 import NavBar from "./components/Nav/NavBar";
+import About from "./pages/About";
 import Hero from "./pages/Hero";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       </div> */}
       <NavBar />
       <Hero />
+      <About />
     </>
   )
 }
